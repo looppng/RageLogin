@@ -23,7 +23,13 @@ const Login = () => {
           <div className="flex items-center mb-4">
             <div className="w-full bg-[#131313] flex justify-center items-center">
               <div className="bg-[#000000]">
-                <Image src={users} alt="User logo" width={50} height={50} />
+                <Image
+                  src={users}
+                  alt="User logo"
+                  width={50}
+                  height={50}
+                  className="p-2"
+                />
               </div>
               <input
                 type="username"
@@ -37,7 +43,13 @@ const Login = () => {
           <div className="flex items-center mb-4">
             <div className="w-full bg-[#131313] flex justify-center items-center">
               <div className="bg-[#000000]">
-                <Image src={lock} alt="User logo" width={59} height={50} />
+                <Image
+                  src={lock}
+                  alt="User logo"
+                  width={59}
+                  height={50}
+                  className="p-2"
+                />
               </div>
               <input
                 type="password"
